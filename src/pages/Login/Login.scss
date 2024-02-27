@@ -1,0 +1,49 @@
+#login {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h3 {
+    font-family: "Blackadder ITC", sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+  }
+
+  .form {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    input {
+      height: 47px;
+      margin-bottom: 25px;
+      border: solid 1px #333333;
+      padding-left: 15px;
+
+      &:focus {
+        outline: none;
+      }
+
+    }
+    button {
+      margin: 35px 0;
+      background: #151519;
+      border: solid 1px #151519;
+      color: #ffffff;
+      height: 47px;
+      transition: .2s ease-in-out;
+
+      &:hover {
+        background: #ffffff;
+        color: #151519;
+      }
+    }
+  }
+
+  span {
+    color: #b79987;
+    text-decoration: underline;
+  }
+}

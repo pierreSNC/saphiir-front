@@ -1,0 +1,108 @@
+#validate-order {
+
+  h2 {
+    font-family: "Blackadder ITC", sans-serif;
+    font-size: 2.5rem;
+    margin: 100px 0 75px 0;
+  }
+
+  .customerInfos, .customerAddress, .customerCarrier, .paymentMethod {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 55px;
+    border-radius: 8px;
+    border: solid 1px #333333;
+  }
+
+  .content__customerInfos {
+    width: 75%;
+    margin: 0 auto;
+
+    div {
+      justify-content: center;
+      p {
+        font-size: 20px;
+      }
+
+      button {
+        background: #151519;
+        margin-top: 25px;
+        border: solid 1px #151519;
+        color: #ffffff;
+        height: 35px;
+        width: 100px;
+        transition: .2s ease-in-out;
+
+        &:hover {
+          background: #ffffff;
+          color: #151519;
+        }
+      }
+    }
+  }
+
+  .content__customerAddress {
+    padding: 15px;
+    width: 75%;
+    margin: 0 auto;
+    input {
+      margin-bottom: 15px;
+      border: solid 1px #333333;
+      height: 47px;
+      padding-left: 10px;
+      border-radius: 4px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  .content__customerCarrier {
+    border: solid 1px #333333;
+    padding: 15px 50px;
+    width: 65%;
+    margin: 25px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+  }
+
+  .content__paymentMethod {
+    padding: 15px 50px;
+    margin: 25px auto 0 auto;
+
+    .card__form {
+      background: #ffffff;
+      width: 99%;
+      padding: 10px;
+      margin: 0 auto;
+      input {
+        margin: 8px 0;
+        height: 45px;
+        border-radius: 4px;
+        padding-left: 8px;
+        border: solid 1px #333;
+      }
+    }
+  }
+
+  .btn-validate {
+    background: #151519;
+    margin-top: 75px;
+    border: solid 1px #151519;
+    color: #ffffff;
+    height: 55px;
+    width: 50%;
+    transition: .2s ease-in-out;
+
+    &:hover {
+      background: #ffffff;
+      color: #151519;
+    }
+  }
+}

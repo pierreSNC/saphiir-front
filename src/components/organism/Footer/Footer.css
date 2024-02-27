@@ -1,0 +1,28 @@
+footer {
+  background: #ffffff;
+  margin: 75px 0 25px 0;
+  padding: 15px 100px;
+}
+footer .grid {
+  text-align: left;
+}
+footer .grid h3 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+footer .grid .about div {
+  display: flex;
+  gap: 15px;
+  font-size: 18px;
+}
+footer .grid input {
+  margin-top: 15px;
+  padding-left: 10px;
+  border-bottom: solid 1px #151519;
+  width: 100%;
+}
+footer .grid input:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=Footer.css.map */

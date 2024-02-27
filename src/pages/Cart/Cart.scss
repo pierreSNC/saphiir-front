@@ -1,0 +1,95 @@
+#cart {
+  .cart-content {
+    padding: 50px;
+
+    h2 {
+      font-family: "Blackadder ITC", sans-serif;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .cart-item {
+    }
+
+    table {
+      width: 1200px;
+      margin: 0 auto;
+      thead {
+        margin-bottom: 50px;
+        height: 80px;
+        border-bottom: solid 2px #d9d9d9;
+
+        th {
+          width: calc(35% / 3);
+
+          &:nth-child(1) {
+            width: 65%;
+          }
+        }
+      }
+
+      hr {
+        opacity: 0;
+        margin: 15px;
+      }
+
+      tbody {
+        tr {
+          td {
+            div {
+              margin: 25px 0 12px 0;
+            }
+          }
+        }
+      }
+    }
+
+    hr {
+      height: 2px;
+      background: #151519;
+      margin: 25px 0;
+    }
+
+    .btn-proceed {
+      background: #151519;
+      color: #ffffff;
+      width: 50%;
+      height: 55px;
+      transition: .1s ease-in-out;
+
+      &:hover {
+        background: #ffffff;
+        border: 1px solid #151519;
+        color: #151519;
+      }
+    }
+  }
+
+  .empty-cart {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-family: "Blackadder ITC", sans-serif;
+      font-size: 3rem;
+    }
+
+    span {
+      color: #b79987;
+      text-decoration: underline;
+    }
+  }
+  .cart-banner {
+    height: 75vh;
+    background: url("https://www.belost.fr/cdn/shop/files/WANDERLUST_OR_3_1200.webp?v=1680073180") center center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+    font-family: "Blackadder ITC", sans-serif;
+    color: #ffffff;
+  }
+}

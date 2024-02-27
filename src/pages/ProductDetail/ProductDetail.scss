@@ -1,0 +1,37 @@
+#product-detail {
+  .thumbnail {
+  }
+
+  .content {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    h2 {
+      font-family: "Blackadder ITC", sans-serif;
+      font-size: 2.5rem;
+    }
+
+    .btn-add {
+      background: #151519;
+      color: #ffffff;
+      width: 100%;
+      height: 55px;
+      transition: .1s ease-in-out;
+
+      &:hover {
+        background: #ffffff;
+        border: 1px solid #151519;
+        color: #151519;
+      }
+    }
+
+    hr {
+      height: 1px;
+      background-color: #d9d9d9;
+      border: none;
+    }
+  }
+
+
+}

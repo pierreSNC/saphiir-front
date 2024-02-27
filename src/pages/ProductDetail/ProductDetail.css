@@ -1,0 +1,29 @@
+#product-detail .content {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+#product-detail .content h2 {
+  font-family: "Blackadder ITC", sans-serif;
+  font-size: 2.5rem;
+}
+#product-detail .content .btn-add {
+  background: #151519;
+  color: #ffffff;
+  width: 100%;
+  height: 55px;
+  transition: 0.1s ease-in-out;
+}
+#product-detail .content .btn-add:hover {
+  background: #ffffff;
+  border: 1px solid #151519;
+  color: #151519;
+}
+#product-detail .content hr {
+  height: 1px;
+  background-color: #d9d9d9;
+  border: none;
+}
+
+/*# sourceMappingURL=ProductDetail.css.map */

@@ -1,0 +1,38 @@
+#order-over .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 75vh;
+}
+#order-over .content h2 {
+  font-family: "Blackadder ITC", sans-serif;
+  font-size: 4rem;
+}
+#order-over .order-footer-hero {
+  height: 75vh;
+  background: url("https://www.belost.fr/cdn/shop/files/WANDERLUST_OR_3_1200.webp?v=1680073180") center center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  font-family: "Blackadder ITC", sans-serif;
+  color: #ffffff;
+}
+#order-over .return-home {
+  background: #151519;
+  color: #ffffff;
+  border: solid 1px #151519;
+  transition: 0.2s ease-in-out;
+  height: 45px;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#order-over .return-home:hover {
+  background: #ffffff;
+  color: #151519;
+}
+
+/*# sourceMappingURL=OrderOver.css.map */

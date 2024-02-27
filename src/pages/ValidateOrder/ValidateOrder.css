@@ -1,0 +1,96 @@
+#validate-order h2 {
+  font-family: "Blackadder ITC", sans-serif;
+  font-size: 2.5rem;
+  margin: 100px 0 75px 0;
+}
+#validate-order .customerInfos, #validate-order .customerAddress, #validate-order .customerCarrier, #validate-order .paymentMethod {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 55px;
+  border-radius: 8px;
+  border: solid 1px #333333;
+}
+#validate-order .content__customerInfos {
+  width: 75%;
+  margin: 0 auto;
+}
+#validate-order .content__customerInfos div {
+  justify-content: center;
+}
+#validate-order .content__customerInfos div p {
+  font-size: 20px;
+}
+#validate-order .content__customerInfos div button {
+  background: #151519;
+  margin-top: 25px;
+  border: solid 1px #151519;
+  color: #ffffff;
+  height: 35px;
+  width: 100px;
+  transition: 0.2s ease-in-out;
+}
+#validate-order .content__customerInfos div button:hover {
+  background: #ffffff;
+  color: #151519;
+}
+#validate-order .content__customerAddress {
+  padding: 15px;
+  width: 75%;
+  margin: 0 auto;
+}
+#validate-order .content__customerAddress input {
+  margin-bottom: 15px;
+  border: solid 1px #333333;
+  height: 47px;
+  padding-left: 10px;
+  border-radius: 4px;
+}
+#validate-order .content__customerAddress input:focus {
+  outline: none;
+}
+#validate-order .content__customerCarrier {
+  border: solid 1px #333333;
+  padding: 15px 50px;
+  width: 65%;
+  margin: 25px auto 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+#validate-order .content__paymentMethod {
+  padding: 15px 50px;
+  margin: 25px auto 0 auto;
+}
+#validate-order .content__paymentMethod .card__form {
+  background: #ffffff;
+  width: 99%;
+  padding: 10px;
+  margin: 0 auto;
+}
+#validate-order .content__paymentMethod .card__form input {
+  margin: 8px 0;
+  height: 45px;
+  border-radius: 4px;
+  padding-left: 8px;
+  border: solid 1px #333;
+}
+#validate-order .btn-validate {
+  background: #151519;
+  margin-top: 75px;
+  border: solid 1px #151519;
+  color: #ffffff;
+  height: 55px;
+  width: 50%;
+  transition: 0.2s ease-in-out;
+}
+#validate-order .btn-validate:hover {
+  background: #ffffff;
+  color: #151519;
+}
+
+/*# sourceMappingURL=ValidateOrder.css.map */

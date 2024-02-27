@@ -1,0 +1,20 @@
+#category-page .category-hero {
+  height: 75vh;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0 0 50px 50px;
+  color: #ffffff;
+  background-size: cover;
+}
+#category-page .category-hero h3 {
+  font-family: "Blackadder ITC", sans-serif;
+  font-size: 3rem;
+}
+#category-page .category-hero p {
+  width: 50%;
+}
+
+/*# sourceMappingURL=Categories.css.map */
