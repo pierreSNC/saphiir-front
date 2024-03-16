@@ -2,7 +2,7 @@
   padding: 50px;
 }
 #cart .cart-content h2 {
-  font-family: "Blackadder ITC", sans-serif;
+  font-family: "Courgette", cursive;
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
@@ -54,7 +54,7 @@
   align-items: center;
 }
 #cart .empty-cart p {
-  font-family: "Blackadder ITC", sans-serif;
+  font-family: "Courgette", cursive;
   font-size: 3rem;
 }
 #cart .empty-cart span {
@@ -68,7 +68,7 @@
   justify-content: center;
   align-items: center;
   font-size: 3.5rem;
-  font-family: "Blackadder ITC", sans-serif;
+  font-family: "Courgette", cursive;
   color: #ffffff;
 }
 

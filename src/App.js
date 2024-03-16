@@ -44,7 +44,7 @@ function AppWrapper() {
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/Saphiir">
             <AppWrapper />
         </BrowserRouter>
     );

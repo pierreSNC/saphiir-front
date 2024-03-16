@@ -48,6 +48,7 @@ const Cart = () => {
             //     setCart(response.data);
             // });
             window.location.reload();
+
         });
     }
 

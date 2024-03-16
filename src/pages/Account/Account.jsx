@@ -37,7 +37,7 @@ const AccountOrders = () => {
 
                 Promise.all(fetchedOrders.flatMap(order =>
                     order.idProduct.split(', ').map(productId =>
-                        axios.get(`http://localhost:3000/product/${productId}`)
+                        axios.get(`${API_BASE_URL}/product/${productId}`)
                             .then(response => ({ orderId: order.id, product: response.data }))
                     )
                 )).then(productResponses => {
